@@ -7,6 +7,13 @@ This folder contains best scores for ATS system
 5- Translated_Arabic_to_English is the same as english model but tested on translated Arabic Data using Essex Arabic summaries corpus using textblob translation module
 
 # Code documentation for Automatic Evaluation based on machine learning approach 
+We pass 11 feature to our classifiers and make some experiments to  get the best result
+Features that we used 
+1-MeMoG:we pass to it the candidate summary  and the reference summary  we have 3 references for each candidate through these 3 references generating the merged graph which compared with the candidate graph 
+2-Lexical Features:for the candidate summary we pass it to a POS and have a list of Nouns  and verbs then calculate the Number of Nouns and verbs in each candidate summary and after that calculate the density of each type in each  candidate summary  
+3-SIMetrix:: we pass to it frequency of each word in candidate summary and in the input source  then calculate the divergence from the input to candidate and the divergence from the candidate to source input and then calculating the smoothed version of it 
+5-ROUGE:we pass to it the candidate summary and the reference summary , we have 3 references for each candidate so we take the average of them, and calculate Rouge 1, Rouge 2, Rouge 3 and Rouge 4
+
 
 # Demo Interview 
 Create a demo interview 
