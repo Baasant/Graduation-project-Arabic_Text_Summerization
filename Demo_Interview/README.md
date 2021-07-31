@@ -1,1 +1,1 @@
-
+Create a demo interview as interview questions and based on his/her answer,time that he /she takes to answer 1-Use the sentiment analysis to know the feelings of interviewee such as worry,ego,loyalty 2-Time he/she used to answet the questions to evaluate the interviewee
